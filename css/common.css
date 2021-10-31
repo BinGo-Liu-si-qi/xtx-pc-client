@@ -1,0 +1,218 @@
+/* 版心公用类 */
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷菜单模块 */
+.xtx-shortcut{
+    height: 52px;
+    background-color: #333333;
+}
+
+.xtx-shortcut .container{
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.xtx-shortcut ul li{
+    float: left;
+    line-height: 52px;
+    /* color: #666666; */
+    
+}
+
+.xtx-shortcut ul a{
+    padding: 0 16px;
+    font-size: 14px;
+    color: #dcdcdc;
+    border-right: 2px solid #666666;
+}
+
+.xtx-shortcut li:last-child a{
+    padding-right: 0;
+    border-right: none;
+}
+
+.xtx-shortcut li:last-child a::before{
+    display: inline-block;
+    content: '';
+    width: 11px;
+    height: 16px;
+    margin-top: -3px;
+    margin-right: 8px;
+    /* background-color: red; */
+    background: url(../images/sprites.png) -160px -70px;
+    vertical-align: middle;
+}
+
+.xtx-main-nav{
+    height: 130px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    /* ps */
+    /* background-color: pink; */
+}
+
+.xtx-main-nav .logo{
+    width: 207px;
+    height: 70px;
+    margin-left: 25px;
+    /* ps */
+    /* background-color: red; */
+    /* background: url(../images/logo.png); */
+    /* background-size: 100% 100%; */
+}
+
+.xtx-main-nav .logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* ps */
+    /* background-color: red; */
+    background: url(../images/logo.png);
+    background-size: 100% 100%;
+    font-size: 0px;
+}
+.xtx-main-nav nav{
+    margin-left: 40px;
+}
+.xtx-main-nav nav li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-right: 48px;
+}
+
+.xtx-main-nav nav li a:hover{
+    color: #27ba9b;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.xtx-main-nav .search{
+    position: relative;
+    width: 172px;
+    height: 30px;
+    /* ps */
+    /* background-color: red; */
+    margin-top: 24px;
+    margin-left: 34px;
+}
+
+.xtx-main-nav .search::before{
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    /* ps */
+    /* background-color: red; */
+    margin-left: 2px;
+    margin-top: 5px;
+    background: url(../images/sprites.png) -80px -70px;
+}
+
+.xtx-main-nav .search input{
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    padding-left: 31px;
+}
+
+.xtx-main-nav .cart{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    /* ps */
+    /* background-color: red; */
+    margin-top: 28px;
+    margin-left: 15px;
+    background: url(../images/sprites.png) -120px -70px;
+}
+
+.xtx-main-nav .cart::before{
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    content: '2';
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 80px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+}
+
+/* ----------------------------xtx-contact的样式 */
+
+.xtx-service{
+    height: 175px;
+    background-color: #333;
+}
+
+.xtx-service .container{
+    width: 1393px;
+    height: 174px;
+    /* ps */
+    /* background-color: pink; */
+    border-bottom: 1px solid #434343;
+}
+
+.xtx-service .container a{
+    float: left;
+    width: 33.33%;
+    height: 174px;
+    /* ps */
+    /* background-color: skyblue; */
+    text-align: center;
+    line-height: 174px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.xtx-service .container a::before{
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    /* ps */
+    /* background-color: red; */
+    vertical-align: middle;
+    margin-right: 19px;
+    background: url(../images/sprites.png) 0px 0px;
+}
+
+.xtx-service .container a:nth-child(2)::before{
+    background: url(../images/sprites.png) -130px 0px;
+}
+
+.xtx-service .container a:last-child::before{
+    background: url(../images/sprites.png) -65px 0px;
+}
+
+.xtx-copyright{
+    height: 165px;
+    background-color: #333;
+}
+
+.xtx-copyright .container{
+    height: 165px;
+    padding-top: 42px;
+    box-sizing: border-box;
+    /* ps */
+    /* background-color: pink; */
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.xtx-copyright .container a{
+    color: #999;
+}
+
+.xtx-copyright .container p:first-child{
+    margin-bottom: 20px;
+}
+
